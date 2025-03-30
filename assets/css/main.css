@@ -2517,7 +2517,7 @@ input, select, textarea {
 		overflow: hidden;
 	}
 
-		.image:before {
+		.image:not(.fit):before { /* Added :not(.fit) to not have overlay show and desaturate my pics */
 			content: '';
 			display: block;
 			position: absolute;
